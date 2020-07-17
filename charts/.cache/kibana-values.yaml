@@ -115,11 +115,11 @@ ingress:
     nginx.ingress.kubernetes.io/whitelist-source-range: 24.15.232.38/32, 50.194.68.229/32, 10.16.0.27/8, 50.194.68.230/32
   path: /
   hosts:
-  - kibana.fuchicorp.com
+  - kibana.olgaojjeh.com
   tls: 
   - secretName: kibana-tls
     hosts:
-    - kibana.fuchicorp.com
+    - kibana.olgaojjeh.com
 
 readinessProbe:
   failureThreshold: 3
