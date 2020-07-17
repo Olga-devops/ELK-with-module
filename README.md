@@ -96,10 +96,4 @@ For more info, please see the [variables file](?tab=inputs).
 | `credentials` | Your google service account example.json | `(Required)` | `string` |
 | `google_bucket_name` | The name of the bucket. | `(Required)` | `string` |
 | `google_project_id` | The ID of the project in which the resource belongs. If it is not provided, the provider project is used | `(Required)` | `string` |
-
-
-
-
-If you have any issues please feel free to submit the issue [new issue](https://github.com/fuchicorp/terraform-aws-eks/issues/new) 
-
-Developed by FuchiCorp members 
+ 
